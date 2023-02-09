@@ -1,0 +1,381 @@
+/* ======================== */
+
+* {
+ font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+ font-family: "EB Garamond", serif;
+ font-weight: 800;
+ margin: 0px;
+}
+h1 {
+ font-size: 72px;
+ color: #fff;
+}
+h2 {
+ font-size: 40px;
+}
+h3 {
+ font-size: 32px;
+}
+h4 {
+ font-size: 24px;
+}
+h5 {
+ font-size: 16px;
+ font-weight: 400;
+}
+p {
+ font-weight: 400;
+ font-size: 16px;
+ color: #707070;
+ margin: 0;
+}
+.section {
+ margin: 120px 0;
+}
+
+@media screen and (max-width: 768px) {
+ h1 {
+  font-size: 52px;
+  color: #fff;
+ }
+ .section {
+  margin-top: 100px;
+ }
+}
+
+/* Header Banner CSS Start */
+.nav-link {
+ color: #707070;
+ font-weight: 400;
+ font-size: 16px;
+ margin-left: 10px;
+}
+i.fas.fa-chevron-right {
+ color: #707070;
+ font-size: 13px;
+ margin-left: 5px;
+}
+.modal-title {
+ color: #000;
+}
+/* Banner CSS */
+.banner-bg {
+ background-image: linear-gradient(12deg, #000000, transparent),
+  url(../images/banner.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding: 165px 10px;
+ border-radius: 8px;
+}
+.banner-content p {
+ color: #e7e7e7;
+ padding: 24px 0 32px 0;
+}
+.banner-content input {
+ padding: 20px 15px;
+}
+/* Meadia Quariay */
+@media screen and (max-width: 768px) {
+ .navbar .btn.btn-primary {
+  width: 100%;
+  margin-top: 25px;
+ }
+ ul.navbar-nav.mb-2.mb-lg-0 {
+  text-align: center;
+ }
+ .nav-link {
+  padding: 15px 0;
+ }
+ .navbar-collapse {
+  background-color: #ebebeb;
+  margin-top: 10px;
+ }
+ .banner-bg {
+  padding: 122px 10px;
+ }
+ .banner-content {
+ }
+ .banner-content button {
+  width: 100%;
+  margin-top: 10px;
+ }
+}
+
+/* Header Banner CSS End */
+.practic-heading {
+ margin-bottom: 64px;
+}
+.practic-heading p {
+ padding-top: 24px;
+}
+.practic .card {
+ border: 0;
+ border-radius: 0;
+ height: 500px;
+ text-align: center;
+ padding: 56px 72px 72px;
+}
+.practic .card > img {
+ width: 75px;
+ display: block;
+ margin: 0 auto;
+}
+.practic .card-body {
+ padding: 32px 0 0;
+}
+.practic .card-body h3 {
+ padding-bottom: 24px;
+}
+.practic .card-body img {
+ padding-top: 32px;
+}
+.bg-gradient {
+ background-image: linear-gradient(356deg, #ffffff, #edededf2) !important;
+}
+
+/* Meadia Quariay */
+@media screen and (max-width: 768px) {
+ .practic-heading {
+  margin-bottom: 50px;
+ }
+ .practic .card {
+  padding: 56px 10px 72px;
+ }
+ .practic {
+  margin-bottom: 30px;
+ }
+ .practic-border {
+  border: 1px solid #dee2e6;
+ }
+}
+
+/* What Our Client Say CSS */
+.clint-say-heading p {
+ margin-top: 24px;
+}
+.testimonials {
+ margin-top: 64px;
+}
+.carousel-inner {
+ border-radius: 8px;
+}
+.carousel-caption img {
+ width: 70px;
+ height: 70px;
+ border-radius: 35px;
+ border: 1px solid #fff;
+ margin-bottom: 24px;
+}
+.carousel-caption h5 {
+ padding-top: 5px;
+}
+.carousel-caption p {
+ color: #fff;
+ margin-top: 25px;
+}
+.carousel-caption {
+ top: 10%;
+}
+
+/* Meadia Quariay */
+@media screen and (max-width: 768px) {
+ .testimonials {
+  margin-top: 50px;
+ }
+ .carousel-caption {
+  top: 9%;
+ }
+ .carousel-item {
+  height: auto;
+ }
+ .carousel-item > img {
+  height: 600px;
+ }
+}
+@media screen and (min-width: 993px) {
+ .carousel-item {
+  height: 600px;
+ }
+ .carousel-caption {
+  top: 19%;
+ }
+}
+
+/* Frequently Asked Any Questions Section CSS */
+.asked-questions {
+ margin-bottom: 64px;
+}
+.asked-questions p {
+ margin-top: 24px;
+}
+.accordion-button:not(.collapsed) {
+ color: #414040;
+ background-color: #f3f3f3;
+ font-weight: 800;
+ font-size: 24px;
+ padding: 20px 20px;
+}
+.accordion-button {
+ color: #414040;
+ background-color: #f3f3f3;
+ font-weight: 800;
+ font-size: 24px;
+ padding: 20px 20px;
+}
+.accordion-item {
+ border-radius: 5px !important;
+ margin-bottom: 20px;
+}
+.accordion-button:focus {
+ border-color: #ffffff;
+ box-shadow: 0 0 0 #fff;
+}
+.accordion-body {
+ background-color: #f3f3f3;
+}
+
+@media screen and (max-width: 768px) {
+ .asked-questions {
+  margin-bottom: 50px;
+ }
+ .questions-img {
+  margin-top: 50px;
+ }
+}
+
+/* Footer Section CSS Start */
+footer {
+ background-color: #111111;
+ padding: 120px 0;
+}
+.footer-logo p {
+ color: #cfcfcf;
+ margin-top: 32px;
+}
+.links h4 {
+ color: #fff;
+ margin-bottom: 50px;
+}
+.contact-info h4 {
+ color: #fff;
+ margin-bottom: 50px;
+}
+.contact-info p {
+ color: #cfcfcf;
+ padding-bottom: 20px;
+}
+.subscribe h4 {
+ color: #fff;
+ margin-bottom: 50px;
+}
+.subscribe p {
+ color: #cfcfcf;
+}
+.list-group-item {
+ padding: 0 0;
+ color: #cfcfcf;
+ background-color: #fff0;
+ border: 0;
+ margin-bottom: 10px;
+}
+.subscribe .form-control {
+ padding: 17px 10px;
+ border-radius: 5px 0 0 5px;
+}
+.subscribe form {
+ margin-top: 24px;
+}
+.subscribe button {
+ border-radius: 0 5px 5px 0;
+ border: 1px solid #b68c5a;
+}
+
+@media screen and (max-width: 768px) {
+ .links,
+ .contact-info,
+ .subscribe {
+  margin-top: 35px;
+ }
+ .links h4 {
+  margin-bottom: 25px;
+ }
+ .contact-info h4 {
+  margin-bottom: 25px;
+ }
+ .subscribe h4 {
+  margin-bottom: 25px;
+ }
+ .subscribe .form-control {
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+ }
+ .subscribe button {
+  border-radius: 0 0px 5px 5px;
+ }
+}
+/* Footer Section CSS End */
+
+/* Contact With Us Section CSS Start */
+.contact {
+ margin-bottom: 64px;
+}
+.contact h2 {
+ padding-bottom: 24px;
+}
+.contact p {
+}
+
+.contact-card {
+ background-color: #f3f3f3;
+ text-align: center;
+ padding: 65px 60px;
+}
+.contact-card img {
+ width: 44px;
+}
+.contact-card h4 {
+ padding: 16px 0;
+}
+.contact-card p {
+ padding-bottom: 3px;
+}
+.contact-form {
+}
+.contact-form input {
+ margin-bottom: 30px;
+ padding: 23px 23px;
+}
+.contact-form textarea {
+ margin-bottom: 30px;
+ padding: 23px 23px;
+}
+
+@media screen and (max-width: 768px) {
+ .contact {
+  margin-bottom: 50px;
+ }
+ .border-new {
+  border: 1px solid #dee2e6;
+ }
+ .contact-card {
+  margin-bottom: 30px;
+ }
+ .contact-form {
+  margin-top: 30px;
+ }
+ .contact-form input {
+  margin-bottom: 20px;
+ }
+ .contact-form textarea {
+  margin-bottom: 20px;
+ }
+}
+/* Contact With Us Section CSS End */
